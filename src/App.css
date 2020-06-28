@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.info {
+  height: 500px;
+  margin: 100px 100px;
+  border: 1px solid #000;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+.form_input {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input[type="text"] {
+  background-color: #fff;
+  border: solid 2px #113a65;
+  width: 50%;
+  padding-bottom: 4px;
+  color: #00000;
+  font-weight: lighter;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #103a65;
+}
+
+input::-moz-placeholder {
+  color: #103a65;
+}
+
+button {
+  border: 2px solid #000000;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #235d9c;
+  color: #fff;
+  outline: none!important;
+}
+
+button:hover {
+  border-bottom: 2px solid #103a65;
+  position: relative;
+  top: 2px;
+}
+
+button:active {
+  border-bottom: 2px solid transparent;
+  border-color: transparent;
+  position: relative;
+  top: 2px;
+}
+
+.current_weather {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin-left: 200px;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    font-weight: bold;
+
+
+
+
+}
+
+.current_weather_i {
+  padding: 10px 0;
+}
+
+.error {
+  color: #041f3c;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20%;
+}
+
+
+
